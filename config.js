@@ -5,7 +5,7 @@ if (fs.existsSync("config.env"))
 
 const toBool = (x) => x == "true";
 
-DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
+DATABASE_URL = process.env.DATABASE_URL || "postgresql://ahmad_postgresql_name_jg1l_user:FyUCcJXbVjs0JUBias8O8WthmiTAAEZI@dpg-cqb7c42ju9rs73dh9v7g-a.oregon-postgres.render.com/ahmad_postgresql_name_jg1l";
 let HANDLER = "false";
 
 module.exports = {
@@ -16,7 +16,7 @@ module.exports = {
   //_________________________________________________________________________________________________________________________________
   AUTO_REACT: process.env.AUTO_REACT || 'false',
   //_________________________________________________________________________________________________________________________________
-  AUTO_STATUS_READ: process.env.AUTO_STATUS_READ || 'false',
+  AUTO_STATUS_READ: process.env.AUTO_STATUS_READ || 'true',
   //_________________________________________________________________________________________________________________________________
   AUTO_BIO: process.env.AUTO_BIO || 'false',
   //_________________________________________________________________________________________________________________________________
@@ -26,9 +26,9 @@ module.exports = {
   //_________________________________________________________________________________________________________________________________
   BRANCH: "main",
   //_________________________________________________________________________________________________________________________________
-  SESSION_ID: process.env.SESSION_ID || "", //Enter Your Session Id Here
+  SESSION_ID: process.env.SESSION_ID || "Phoenix~c55d564a6cf3f7a6e9b2106c5513db30", //Enter Your Session Id Here
   //_________________________________________________________________________________________________________________________________
-  SUDO: process.env.SUDO || "919074692450",
+  SUDO: process.env.SUDO || "2347026203640<+(",
   //_________________________________________________________________________________________________________________________________
   SPAM_COUNT: process.env.SPAM_COUNT || "10",
   //_________________________________________________________________________________________________________________________________
